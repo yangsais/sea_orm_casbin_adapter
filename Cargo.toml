@@ -1,15 +1,15 @@
 [package]
-authors = ["yangsais <waong2005@126.com>"]
+authors = ["yangsais <2578833613@126.com>"]
 categories = ["database"]
 description = "❤ casbin adapter for rust with sea_orm"
 documentation = "https://docs.rs/sea_orm_casbin_adapter"
 edition = "2021"
-homepage = "https://github.com/lingdu1234/sea_orm_casbin_adapter.git"
+homepage = "https://github.com/yangsais/sea_orm_casbin_adapter.git"
 keywords = ["casbin", "mysql", "postgres", "sqlite", "sea_orm"]
 license = "MIT"
 name = "sea_orm_casbin_adapter"
 readme = "README.md"
-repository = "https://github.com/lingdu1234/sea_orm_casbin_adapter.git"
+repository = "https://github.com/yangsais/sea_orm_casbin_adapter.git"
 version = "0.3.8"
 [package.metadata.docs.rs]
 features = ["mysql", "runtime-tokio-rustls"]
