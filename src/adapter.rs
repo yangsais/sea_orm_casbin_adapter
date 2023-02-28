@@ -6,7 +6,7 @@ use async_trait::async_trait;
 use casbin::{error::AdapterError, Adapter, Error as CasbinError, Filter, Model, Result};
 use sea_orm::{ConnectOptions, Database, DatabaseConnection};
 use std::time::Duration;
-#[derive(Clone)]
+// #[derive(Clone)]
 pub struct SeaOrmAdapter {
     pool: DatabaseConnection,
     is_filtered: bool,
